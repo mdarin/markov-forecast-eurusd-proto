@@ -111,7 +111,7 @@ foreach my $from (0..$trans_tab_len-1) {
 close $fmx_csv;
 
 
-# пощитать сумму по строке для таблицы переходов
+# расчитать сумму по строке для таблицы переходов
 foreach my $from (0..$trans_tab_len-1) {
 	my $line_sum = 0;
 	foreach my $to (0..$trans_tab_len-1) { 
